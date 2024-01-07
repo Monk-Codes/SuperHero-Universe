@@ -24,7 +24,7 @@
 .card_img {
  padding: 20px;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
  .card_list {
   margin: 6px;
   grid-template-columns: 1fr 1fr;

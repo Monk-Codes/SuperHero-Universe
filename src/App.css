@@ -4,16 +4,19 @@
  box-sizing: border-box;
 }
 body {
+ width: 100vw;
  font-size: 62.5%;
  background-color: #222831;
  font-family: "DM Sans", sans-serif;
  text-align: center;
 }
 .app_title {
- width: 95dvw;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ padding: 10px;
  text-align: center;
- margin-top: 0.5rem;
- margin-bottom: 0.2rem;
  font-size: 1.8rem;
  font-family: "Rock Salt", cursive;
  color: blueviolet;

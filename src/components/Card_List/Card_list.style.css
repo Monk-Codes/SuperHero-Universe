@@ -26,8 +26,9 @@
 }
 @media screen and (max-width: 430px) {
  .card_list {
+  margin: 6px;
   grid-template-columns: 1fr 1fr;
-  gap: 0px;
+  gap: 4px;
  }
  .card_container {
   font-size: 0.7rem;

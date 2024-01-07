@@ -1,5 +1,5 @@
 .card_list {
- width: 90vw;
+ width: 90dvw;
  margin: 0 auto;
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -20,4 +20,6 @@
 }
 .card_container:hover {
  transform: scale(1.02);
+}
+@media screen and(max-width: 430px) {
 }

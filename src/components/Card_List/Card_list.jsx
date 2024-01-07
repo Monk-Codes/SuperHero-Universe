@@ -7,7 +7,7 @@ const CardList = ({ superheros }) => {
     console.log(superhero);
     return (
      <div className="card_container" key={`${superhero.id}`}>
-      <img src={`${superhero["images"].sm}`} alt={`${superhero.name}`} />
+      <img className="card_img" src={`${superhero["images"].sm}`} alt={`${superhero.name}`} />
       <h2>{`${superhero.name}`}</h2>
       <p>{`${superhero["appearance"].gender}`}</p>
      </div>

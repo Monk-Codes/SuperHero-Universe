@@ -1,0 +1,14 @@
+.search_bar {
+ appearance: none;
+ -webkit-appearance: none;
+ border: none;
+ outline: none;
+ padding: 10px;
+ text-align: center;
+ width: 250px;
+ background: #393e46;
+ border-radius: 30px;
+ line-height: 20px;
+ margin-bottom: 30px;
+ margin-top: 20px;
+}
